@@ -1,0 +1,7 @@
+mkdir resume_builder
+cd resume_builder
+python3 -m venv venv
+source venv/bin/activate
+pip install "rendercv[full]"
+
+

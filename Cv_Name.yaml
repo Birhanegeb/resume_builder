@@ -1,0 +1,237 @@
+cv:
+  name: Alex Example
+  headline: B.Sc. Information Technology | M.Sc. Data Engineering
+  location: City, Country
+  email: your.email@example.com
+  photo:
+  phone:
+  website: https://your-website.example
+  social_networks:
+    - network: LinkedIn
+      username: your-linkedin
+    - network: GitHub
+      username: your-github
+  custom_connections:
+
+  sections:
+    summary:
+      - Data Engineering graduate with experience building end-to-end ETL/ELT
+        pipelines using Python, SQL, Apache Airflow, PySpark, Docker, PostgreSQL,
+        and Terraform. Experienced in data processing, pipeline automation,
+        cloud infrastructure, and analytics dashboards. Seeking data engineering
+        and data analytics opportunities.
+
+    education:
+      - institution: University Name
+        area: Data Engineering
+        degree: MSc
+        date:
+        start_date: 2024-09
+        end_date: present
+        location: City, Country
+        summary: 'Focus: Data processing, data pipelines, cloud computing, machine learning'
+        highlights:
+
+      - institution: University Name
+        area: Information Technology
+        degree: BSc
+        date:
+        start_date: 2015-09
+        end_date: 2020-12
+        location: City, Country
+        summary:
+        highlights:
+
+    experience:
+      - company: University Name
+        position: Data Engineering Student / Projects
+        date:
+        start_date: 2024-09
+        end_date: present
+        location: City, Country
+        summary:
+        highlights:
+          - Developed data engineering and machine learning projects using
+            Python, SQL, Apache Airflow, Apache Spark, and Docker.
+          - Designed ETL pipelines, data processing workflows, and analytics
+            solutions as part of graduate-level projects.
+
+      - company: Technology Company
+        position: IT Officer
+        date:
+        start_date: 2023-11
+        end_date: 2024-08
+        location: City, Country
+        summary:
+        highlights:
+          - Supported enterprise applications, IT infrastructure, user access,
+            and system administration.
+          - Maintained local networks and provided hardware and software support.
+
+      - company: Non-Governmental Organization
+        position: IT Support Specialist
+        date:
+        start_date: 2021-11
+        end_date: 2023-10
+        location: City, Country
+        summary:
+        highlights:
+          - Provided technical support, system administration, and user-access
+            management across departments.
+          - Supported digital data-collection systems and trained users on
+            data-collection tools.
+
+      - company: Software Development Company
+        position: Software Developer
+        date:
+        start_date: 2019-09
+        end_date: 2020-02
+        location: City, Country
+        summary:
+        highlights:
+          - Developed backend services and REST APIs using PHP and a
+            lightweight web framework.
+          - Integrated application services and tested APIs using Postman.
+
+    projects:
+      - name: Smart City Traffic ETL Pipeline
+        date:
+        start_date:
+        end_date:
+        location:
+        summary: Python, Airflow, PySpark, Docker, PostgreSQL, Terraform, Superset
+        highlights:
+          - Designed and implemented a reproducible micro-batch ETL pipeline
+            for traffic data processing.
+          - Built a Bronze/Silver/Gold data architecture with PostgreSQL as the
+            analytical data store.
+          - Implemented automated retries, data validation, logging, and
+            schema-driven pipeline configuration.
+          - Developed analytics dashboards in Apache Superset for monitoring
+            traffic and pipeline metrics.
+
+      - name: IoT Sensor Data Pipeline
+        date:
+        start_date:
+        end_date:
+        location:
+        summary: Arduino, ESP32, Python, FastAPI, PostgreSQL, React
+        highlights:
+          - Built an end-to-end IoT pipeline for collecting temperature and
+            humidity sensor data.
+          - Developed a FastAPI service for data ingestion and stored sensor
+            readings in PostgreSQL.
+          - Created a React dashboard for visualizing current and historical
+            sensor measurements.
+
+      - name: Machine Failure Prediction
+        date:
+        start_date:
+        end_date:
+        location:
+        summary: Python, Pandas, Scikit-learn, Machine Learning
+        highlights:
+          - Developed machine-learning models for predicting equipment failure.
+          - Applied data preprocessing, feature engineering, model training,
+            and performance evaluation.
+
+      - name: Financial Data ETL & Prediction Pipeline
+        date:
+        start_date:
+        end_date:
+        location:
+        summary: Python, Apache Airflow, ETL, Sentiment Analysis, Machine Learning
+        highlights:
+          - Developed an automated Airflow ETL workflow combining financial
+            market data with news sentiment analysis.
+          - Applied data processing and machine-learning techniques to predict
+            short-term market direction.
+
+    skills:
+      - label: Programming
+        details: Python, SQL, PHP, C++, JavaScript, React, FastAPI, Flask
+
+      - label: Data Engineering & Processing
+        details: ETL/ELT, Apache Airflow, PySpark, Pandas, NumPy
+
+      - label: Cloud & Infrastructure
+        details: Docker, Terraform, AWS, Infrastructure as Code
+
+      - label: Analytics & BI
+        details: PostgreSQL, Apache Superset, Data Visualization
+
+      - label: Version Control
+        details: Git, GitHub
+
+    languages:
+      - label: English
+        details: Fluent
+
+      - label: German
+        details: Beginner
+
+design:
+  theme: engineeringclassic
+
+  page:
+    top_margin: 0.35in
+    bottom_margin: 0.35in
+    left_margin: 0.45in
+    right_margin: 0.45in
+    show_top_note: false
+
+  typography:
+    line_spacing: 0.44em
+    font_size:
+      body: 9pt
+      name: 20pt
+
+  header:
+    space_below_name: 0.12cm
+    space_below_headline: 0.12cm
+    space_below_connections: 0.12cm
+
+  section_titles:
+    space_above: 0.15cm
+    space_below: 0.07cm
+
+  sections:
+    space_between_regular_entries: 0.15cm
+    space_between_text_based_entries: 0.06cm
+
+  entries:
+    date_and_location_width: 3.5cm
+    side_space: 0.1cm
+    space_between_columns: 0.1cm
+
+    summary:
+      space_above: 0cm
+
+    highlights:
+      space_above: 0cm
+      space_between_items: 0cm
+      space_between_bullet_and_text: 0.3em
+
+locale:
+  language: english
+
+settings:
+  current_date: today
+
+  render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: true
+    dont_generate_pdf: false
+    dont_generate_png: false
+
+  bold_keywords: []
+  pdf_title: Example-CV
